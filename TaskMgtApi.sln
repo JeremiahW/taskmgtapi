@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHTD.Service", "WCF RESET Service Application\HHTD.Service.csproj", "{5DCD2A25-99D4-4CE6-B112-C109C6D6B0EA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHTD.DbObject", "HHTD.DbObject\HHTD.DbObject.csproj", "{B2B87980-6245-41C5-AC23-839C26F44D72}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHTD.Model", "HHTD.Model\HHTD.Model.csproj", "{996FD364-D871-4FCC-932C-8DD790119AAA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMgtApi", "TaskMgtApi\TaskMgtApi.csproj", "{63F2D846-4B1E-4259-84F4-0A96F3981D1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMgt.DataAccess", "TaskMgt.DataAccess\TaskMgt.DataAccess.csproj", "{4096DF22-3ACC-4D6E-8EB2-54A3877A45BD}"
@@ -19,18 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DCD2A25-99D4-4CE6-B112-C109C6D6B0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DCD2A25-99D4-4CE6-B112-C109C6D6B0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DCD2A25-99D4-4CE6-B112-C109C6D6B0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DCD2A25-99D4-4CE6-B112-C109C6D6B0EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2B87980-6245-41C5-AC23-839C26F44D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2B87980-6245-41C5-AC23-839C26F44D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2B87980-6245-41C5-AC23-839C26F44D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2B87980-6245-41C5-AC23-839C26F44D72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{996FD364-D871-4FCC-932C-8DD790119AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{996FD364-D871-4FCC-932C-8DD790119AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{996FD364-D871-4FCC-932C-8DD790119AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{996FD364-D871-4FCC-932C-8DD790119AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{63F2D846-4B1E-4259-84F4-0A96F3981D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{63F2D846-4B1E-4259-84F4-0A96F3981D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F2D846-4B1E-4259-84F4-0A96F3981D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -291,10 +291,10 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>65294</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://192.168.0.112:62508/</IISUrl>
+          <IISUrl>http://localhost:62508/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>http://sw-home:60528</CustomServerUrl>
+          <CustomServerUrl>http://localhost:60528</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
