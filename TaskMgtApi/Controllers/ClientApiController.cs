@@ -66,9 +66,18 @@ namespace TaskMgtApi.Controllers
             model.mobile = mobile;
             model.tel = tel;
             model.fax = fax;
+            model.isDel = 0;
 
-            _ctx.Customers.Add(model);
-            _ctx.SaveChanges();
+            if (string.IsNullOrWhiteSpace(cname))
+            {
+                _ctx.Customers.Add(model);
+                _ctx.SaveChanges();
+            }
+            else
+            {
+                model.id = -1;
+            }
+           
             var response = new HttpResponseMessage
             {
                 Content = new StringContent(JsonConvert.SerializeObject(model.id)),
