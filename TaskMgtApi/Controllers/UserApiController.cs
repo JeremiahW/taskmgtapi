@@ -80,5 +80,19 @@ namespace TaskMgtApi.Controllers
             }
             return sb.ToString();
         }
+
+
+        [HttpPost, HttpGet]
+        [Route("api/UserApi/Upload")]
+        public HttpResponseMessage Upload()
+        {
+            string user = HttpContext.Current.Request["user"];
+            var response = new HttpResponseMessage
+            {
+                Content = new StringContent("Yes"),
+            };
+            response.Content.Headers.ContentType = new MediaTypeHeaderValue("text/json");
+            return response;
+        }
     }
 }
